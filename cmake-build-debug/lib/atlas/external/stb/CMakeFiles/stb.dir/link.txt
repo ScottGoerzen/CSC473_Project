@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libstb.a  CMakeFiles/stb.dir/source/stb/stb_image.cpp.o CMakeFiles/stb.dir/source/stb/stb_image_resize.cpp.o CMakeFiles/stb.dir/source/stb/stb_image_write.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libstb.a

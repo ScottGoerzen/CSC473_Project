@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="gl3w"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\atlas\;CMake Files\lib\atlas\external\;CMake Files\lib\atlas\external\glfw\;CMake Files\lib\atlas\external\glfw\CMake\;CMake Files\lib\atlas\external\glfw\CMake\modules\;CMake Files\lib\atlas\external\glfw\src\;CMake Files\lib\atlas\external\glfw\examples\;CMake Files\lib\atlas\external\glfw\tests\;CMake Files\lib\atlas\external\imgui\;CMake Files\lib\atlas\external\gl3w\;CMake Files\lib\atlas\external\stb\;CMake Files\lib\atlas\external\tinyobjloader\;CMake Files\lib\atlas\config\;CMake Files\lib\atlas\docs\;CMake Files\lib\atlas\include\;CMake Files\lib\atlas\include\atlas\;CMake Files\lib\atlas\include\atlas\core\;CMake Files\lib\atlas\include\atlas\gl\;CMake Files\lib\atlas\include\atlas\math\;CMake Files\lib\atlas\include\atlas\utils\;CMake Files\lib\atlas\include\atlas\tools\;CMake Files\lib\atlas\source\;CMake Files\lib\atlas\source\atlas\;CMake Files\lib\atlas\source\atlas\core\;CMake Files\lib\atlas\source\atlas\gl\;CMake Files\lib\atlas\source\atlas\utils\;CMake Files\lib\atlas\source\atlas\tools\;CMake Files\labs\;CMake Files\labs\lab05\;CMake Files\labs\lab05\include\;CMake Files\labs\lab05\source\;CMake Files\labs\lab05\shaders\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/cmake-build-debug/lib/atlas/external/gl3w"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/cmake-build-debug/lib/atlas/external/gl3w/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/cmake-build-debug/lib/atlas/external/gl3w/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/cmake-build-debug/lib/atlas/external/gl3w/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/cmake-build-debug/lib/atlas/external/gl3w/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gl3w">
+				<Option output="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/cmake-build-debug/lib/atlas/external/gl3w/libgl3w.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/cmake-build-debug/lib/atlas/external/gl3w"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/gl3w/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/cmake-build-debug/lib/atlas/external/gl3w/Makefile&quot;  VERBOSE=1 gl3w"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/cmake-build-debug/lib/atlas/external/gl3w/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/cmake-build-debug/lib/atlas/external/gl3w/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/cmake-build-debug/lib/atlas/external/gl3w/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gl3w/fast">
+				<Option output="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/cmake-build-debug/lib/atlas/external/gl3w/libgl3w.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/cmake-build-debug/lib/atlas/external/gl3w"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/gl3w/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/cmake-build-debug/lib/atlas/external/gl3w/Makefile&quot;  VERBOSE=1 gl3w/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/cmake-build-debug/lib/atlas/external/gl3w/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/cmake-build-debug/lib/atlas/external/gl3w/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/cmake-build-debug/lib/atlas/external/gl3w/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/gl3w/src/gl3w.c">
+			<Option target="gl3w"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\CMake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\examples\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\examples\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\examples\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\tests\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\tests\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/glfw/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\external\glfw\tests\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/imgui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\external\imgui\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/imgui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\external\imgui\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/imgui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\external\imgui\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/gl3w/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\external\gl3w\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/gl3w/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\external\gl3w\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/gl3w/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\external\gl3w\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/stb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\external\stb\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/stb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\external\stb\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/stb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\external\stb\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/tinyobjloader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\external\tinyobjloader\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/tinyobjloader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\external\tinyobjloader\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/tinyobjloader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\external\tinyobjloader\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/config/Compiler.cmake">
+			<Option virtualFolder="CMake Files\lib\atlas\config\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/config/Externals.cmake">
+			<Option virtualFolder="CMake Files\lib\atlas\config\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/config/SourceGroups.cmake">
+			<Option virtualFolder="CMake Files\lib\atlas\config\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/config/Compiler.cmake">
+			<Option virtualFolder="CMake Files\lib\atlas\config\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/config/Compiler.cmake">
+			<Option virtualFolder="CMake Files\lib\atlas\config\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/config/Externals.cmake">
+			<Option virtualFolder="CMake Files\lib\atlas\config\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/config/SourceGroups.cmake">
+			<Option virtualFolder="CMake Files\lib\atlas\config\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/docs/Doxyfile.in">
+			<Option virtualFolder="CMake Files\lib\atlas\docs\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/docs/Doxyfile.in">
+			<Option virtualFolder="CMake Files\lib\atlas\docs\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/include/atlas/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\include\atlas\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/include/atlas/Atlas.hpp.in">
+			<Option virtualFolder="CMake Files\lib\atlas\include\atlas\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/include/atlas/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\include\atlas\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/include/atlas/Atlas.hpp.in">
+			<Option virtualFolder="CMake Files\lib\atlas\include\atlas\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/include/atlas/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\include\atlas\core\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/include/atlas/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\include\atlas\core\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/include/atlas/gl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\include\atlas\gl\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/include/atlas/gl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\include\atlas\gl\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/include/atlas/math/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\include\atlas\math\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/include/atlas/math/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\include\atlas\math\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/include/atlas/utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\include\atlas\utils\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/include/atlas/utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\include\atlas\utils\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/include/atlas/tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\include\atlas\tools\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/include/atlas/tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\include\atlas\tools\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/source/atlas/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\source\atlas\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/source/atlas/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\source\atlas\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/source/atlas/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\source\atlas\core\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/source/atlas/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\source\atlas\core\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/source/atlas/gl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\source\atlas\gl\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/source/atlas/gl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\source\atlas\gl\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/source/atlas/utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\source\atlas\utils\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/source/atlas/utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\source\atlas\utils\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/source/atlas/tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\source\atlas\tools\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/source/atlas/tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\atlas\source\atlas\tools\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/labs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\labs\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/labs/lab05/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\labs\lab05\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/labs/lab05/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\labs\lab05\include\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/labs/lab05/include/Paths.hpp.in">
+			<Option virtualFolder="CMake Files\labs\lab05\include\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/labs/lab05/source/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\labs\lab05\source\"/>
+		</Unit>
+		<Unit filename="/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/labs/lab05/shaders/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\labs\lab05\shaders\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

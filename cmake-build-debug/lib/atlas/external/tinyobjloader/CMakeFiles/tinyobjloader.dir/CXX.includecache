@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/atlas/external/tinyobjloader/include/tinyobj/tiny_obj_loader.h
+map
+-
+string
+-
+vector
+-
+cassert
+-
+cctype
+-
+cmath
+-
+cstddef
+-
+cstdlib
+-
+cstring
+-
+utility
+-
+fstream
+-
+sstream
+-
+
+/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/tinyobjloader/source/tinyobj/tiny_obj_loader.cpp
+tiny_obj_loader.h
+/Users/scottgoerzen/Desktop/CSC_473/Project/csc473_fall2018_labs/lib/atlas/external/tinyobjloader/source/tinyobj/tiny_obj_loader.h
+
